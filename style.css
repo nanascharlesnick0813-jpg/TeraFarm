@@ -673,10 +673,13 @@ header .navbar {
     gap: 60px;
   }
 
-  .product-section .product-list .product-items,
-  .gallery-section .gallery-list .gallery-item {
+  .product-section .product-list .product-items {
     width: 100%;
   }
+
+  .gallery-section .gallery-list .gallery-item{
+    width: 400px;
+    height: 200px;
 
   .testimonials-section .slider-wrapper {
     margin: 0 0 30px;
@@ -691,4 +694,5 @@ header .navbar {
     gap: 20px;
   }
 }
+
 
